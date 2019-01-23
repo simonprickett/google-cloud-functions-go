@@ -8,7 +8,8 @@ import (
 	"time"
 )
 
-func F(w http.ResponseWriter, r *http.Request) {
+// GetUserDetails - Get one user's details from randomuser.me API
+func GetUserDetails(w http.ResponseWriter, r *http.Request) {
 	randomUserClient := http.Client{
 		Timeout: time.Second * 3,
 	}

@@ -7,7 +7,7 @@ Demo Google Cloud Function showing use of the Go runtime.
 ```
 $ gcloud components update
 $ gcloud components install beta
-$ gcloud beta functions deploy getUserDetails --runtime go111 --entry-point F --trigger-http --project <projectId>
+$ gcloud beta functions deploy getUserDetails --runtime go111 --entry-point GetUserDetails --trigger-http --project <projectId>
 ```
 
 Where `<projectId>` is your Google Cloud project ID.
