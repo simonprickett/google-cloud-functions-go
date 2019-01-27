@@ -1,6 +1,6 @@
 # Google Cloud Functions Go Runtime Demo
 
-Demo Google Cloud Function showing use of the Go runtime.
+Demo Google Cloud Function showing use of the Go runtime.  Read the Medium article that explains this [here](https://medium.com/@simon_prickett/writing-google-cloud-functions-in-go-fb711f33459a).
 
 ## Deployment
 
